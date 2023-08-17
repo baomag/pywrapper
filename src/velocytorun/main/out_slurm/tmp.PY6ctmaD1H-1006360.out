@@ -1,0 +1,329 @@
+starting at Thu Aug 17 17:20:04 CDT 2023 on mhgcp-g01.grid.bcm.edu
+SLURM_JOBID=1006360
+2023-08-17 17:20:15,743 - INFO - No SAMPLEID specified, the sample will be called possorted_genome_bam_TV20V (last 5 digits are a random-id to avoid overwriting some other file by mistake)
+2023-08-17 17:20:15,755 - DEBUG - Using logic: Default
+2023-08-17 17:20:15,769 - INFO - Read 2633 cell barcodes from /storage/singlecell/jeanl/organoid/data/D45_organoid_Sridhar/D45_organoid/outs/filtered_feature_bc_matrix/barcodes.tsv.gz
+2023-08-17 17:20:15,769 - DEBUG - Example of barcode: AAACCTGAGATATGGT and cell_id: possorted_genome_bam_TV20V:AAACCTGAGATATGGT-1
+2023-08-17 17:20:15,793 - DEBUG - Peeking into /storage/singlecell/jeanl/organoid/data/D45_organoid_Sridhar/D45_organoid/outs/possorted_genome_bam.bam
+2023-08-17 17:20:15,904 - WARNING - Not found cell and umi barcode in entry 0 of the bam file
+2023-08-17 17:20:15,905 - WARNING - Not found cell and umi barcode in entry 13 of the bam file
+2023-08-17 17:20:15,905 - WARNING - Not found cell and umi barcode in entry 20 of the bam file
+2023-08-17 17:20:15,905 - WARNING - Not found cell and umi barcode in entry 142 of the bam file
+2023-08-17 17:20:15,906 - WARNING - Not found cell and umi barcode in entry 249 of the bam file
+2023-08-17 17:20:15,906 - WARNING - Not found cell and umi barcode in entry 319 of the bam file
+2023-08-17 17:20:15,906 - WARNING - Not found cell and umi barcode in entry 395 of the bam file
+2023-08-17 17:20:15,906 - WARNING - Not found cell and umi barcode in entry 422 of the bam file
+2023-08-17 17:20:15,906 - WARNING - Not found cell and umi barcode in entry 427 of the bam file
+2023-08-17 17:20:15,907 - WARNING - Not found cell and umi barcode in entry 476 of the bam file
+2023-08-17 17:20:15,907 - WARNING - Not found cell and umi barcode in entry 515 of the bam file
+2023-08-17 17:20:15,907 - WARNING - Not found cell and umi barcode in entry 527 of the bam file
+2023-08-17 17:20:15,907 - WARNING - Not found cell and umi barcode in entry 533 of the bam file
+2023-08-17 17:20:15,907 - WARNING - Not found cell and umi barcode in entry 545 of the bam file
+2023-08-17 17:20:15,907 - WARNING - Not found cell and umi barcode in entry 616 of the bam file
+2023-08-17 17:20:15,907 - WARNING - Not found cell and umi barcode in entry 720 of the bam file
+2023-08-17 17:20:15,908 - WARNING - Not found cell and umi barcode in entry 841 of the bam file
+2023-08-17 17:20:15,908 - WARNING - Not found cell and umi barcode in entry 885 of the bam file
+2023-08-17 17:20:15,908 - WARNING - Not found cell and umi barcode in entry 927 of the bam file
+2023-08-17 17:20:15,908 - WARNING - Not found cell and umi barcode in entry 941 of the bam file
+2023-08-17 17:20:15,908 - WARNING - Not found cell and umi barcode in entry 974 of the bam file
+2023-08-17 17:20:15,908 - WARNING - Not found cell and umi barcode in entry 976 of the bam file
+2023-08-17 17:20:15,908 - WARNING - Not found cell and umi barcode in entry 983 of the bam file
+2023-08-17 17:20:15,909 - WARNING - Not found cell and umi barcode in entry 1019 of the bam file
+2023-08-17 17:20:15,909 - WARNING - Not found cell and umi barcode in entry 1021 of the bam file
+2023-08-17 17:20:15,909 - WARNING - Not found cell and umi barcode in entry 1022 of the bam file
+2023-08-17 17:20:15,909 - WARNING - Not found cell and umi barcode in entry 1024 of the bam file
+2023-08-17 17:20:15,909 - WARNING - Not found cell and umi barcode in entry 1026 of the bam file
+2023-08-17 17:20:15,979 - INFO - Starting the sorting process of /storage/singlecell/jeanl/organoid/data/D45_organoid_Sridhar/D45_organoid/outs/possorted_genome_bam.bam the output will be at: /storage/singlecell/jeanl/organoid/data/D45_organoid_Sridhar/D45_organoid/outs/cellsorted_possorted_genome_bam.bam
+2023-08-17 17:20:15,980 - INFO - Command being run is: samtools sort -l 7 -m 2048M -t CB -O BAM -@ 8 -o /storage/singlecell/jeanl/organoid/data/D45_organoid_Sridhar/D45_organoid/outs/cellsorted_possorted_genome_bam.bam /storage/singlecell/jeanl/organoid/data/D45_organoid_Sridhar/D45_organoid/outs/possorted_genome_bam.bam
+2023-08-17 17:20:15,980 - INFO - While the bam sorting happens do other things...
+2023-08-17 17:20:15,980 - INFO - Load the annotation from /storage/singlecell/zz4/Reference/refdata-cellranger-arc-GRCh38-2020-A/genes/genes.gtf
+2023-08-17 17:20:27,396 - DEBUG - Parsing Chromosome GL000009.2 strand - [line 0]
+2023-08-17 17:20:27,397 - DEBUG - Done with GL000009.2- [line 7]
+2023-08-17 17:20:27,397 - DEBUG - Assigning indexes to genes
+2023-08-17 17:20:27,397 - DEBUG - Seen 1 genes until now
+2023-08-17 17:20:27,397 - DEBUG - Parsing Chromosome GL000194.1 strand - [line 8]
+2023-08-17 17:20:27,397 - DEBUG - Done with GL000194.1- [line 33]
+2023-08-17 17:20:27,397 - DEBUG - Assigning indexes to genes
+2023-08-17 17:20:27,397 - DEBUG - Seen 3 genes until now
+2023-08-17 17:20:27,397 - DEBUG - Parsing Chromosome GL000195.1 strand - [line 34]
+2023-08-17 17:20:27,397 - DEBUG - Done with GL000195.1- [line 43]
+2023-08-17 17:20:27,397 - DEBUG - Assigning indexes to genes
+2023-08-17 17:20:27,397 - DEBUG - Seen 4 genes until now
+2023-08-17 17:20:27,397 - DEBUG - Parsing Chromosome GL000195.1 strand + [line 44]
+2023-08-17 17:20:27,397 - DEBUG - Done with GL000195.1+ [line 57]
+2023-08-17 17:20:27,397 - DEBUG - Assigning indexes to genes
+2023-08-17 17:20:27,397 - DEBUG - Seen 5 genes until now
+2023-08-17 17:20:27,397 - DEBUG - Parsing Chromosome GL000205.2 strand - [line 58]
+2023-08-17 17:20:27,398 - DEBUG - Done with GL000205.2- [line 71]
+2023-08-17 17:20:27,398 - DEBUG - Assigning indexes to genes
+2023-08-17 17:20:27,398 - DEBUG - Seen 6 genes until now
+2023-08-17 17:20:27,398 - DEBUG - Parsing Chromosome GL000213.1 strand - [line 72]
+2023-08-17 17:20:27,398 - DEBUG - Done with GL000213.1- [line 120]
+2023-08-17 17:20:27,398 - DEBUG - Assigning indexes to genes
+2023-08-17 17:20:27,398 - DEBUG - Seen 7 genes until now
+2023-08-17 17:20:27,398 - DEBUG - Parsing Chromosome GL000218.1 strand - [line 121]
+2023-08-17 17:20:27,398 - DEBUG - Done with GL000218.1- [line 128]
+2023-08-17 17:20:27,398 - DEBUG - Assigning indexes to genes
+2023-08-17 17:20:27,398 - DEBUG - Seen 8 genes until now
+2023-08-17 17:20:27,398 - DEBUG - Parsing Chromosome GL000219.1 strand - [line 129]
+2023-08-17 17:20:27,398 - DEBUG - Done with GL000219.1- [line 141]
+2023-08-17 17:20:27,398 - DEBUG - Assigning indexes to genes
+2023-08-17 17:20:27,398 - DEBUG - Seen 9 genes until now
+2023-08-17 17:20:27,398 - DEBUG - Parsing Chromosome KI270711.1 strand - [line 142]
+2023-08-17 17:20:27,399 - DEBUG - Done with KI270711.1- [line 292]
+2023-08-17 17:20:27,399 - DEBUG - Assigning indexes to genes
+2023-08-17 17:20:27,399 - DEBUG - Seen 10 genes until now
+2023-08-17 17:20:27,399 - DEBUG - Parsing Chromosome KI270713.1 strand - [line 293]
+2023-08-17 17:20:27,399 - DEBUG - Done with KI270713.1- [line 300]
+2023-08-17 17:20:27,399 - DEBUG - Assigning indexes to genes
+2023-08-17 17:20:27,399 - DEBUG - Seen 11 genes until now
+2023-08-17 17:20:27,399 - DEBUG - Parsing Chromosome KI270713.1 strand + [line 301]
+2023-08-17 17:20:27,400 - DEBUG - Done with KI270713.1+ [line 307]
+2023-08-17 17:20:27,400 - DEBUG - Assigning indexes to genes
+2023-08-17 17:20:27,400 - DEBUG - Seen 12 genes until now
+2023-08-17 17:20:27,400 - DEBUG - Parsing Chromosome KI270721.1 strand + [line 308]
+2023-08-17 17:20:27,400 - DEBUG - Done with KI270721.1+ [line 323]
+2023-08-17 17:20:27,400 - DEBUG - Assigning indexes to genes
+2023-08-17 17:20:27,400 - DEBUG - Seen 13 genes until now
+2023-08-17 17:20:27,400 - DEBUG - Parsing Chromosome KI270726.1 strand + [line 324]
+2023-08-17 17:20:27,400 - DEBUG - Done with KI270726.1+ [line 334]
+2023-08-17 17:20:27,400 - DEBUG - Assigning indexes to genes
+2023-08-17 17:20:27,400 - DEBUG - Seen 15 genes until now
+2023-08-17 17:20:27,400 - DEBUG - Parsing Chromosome KI270727.1 strand - [line 335]
+2023-08-17 17:20:27,400 - DEBUG - Done with KI270727.1- [line 394]
+2023-08-17 17:20:27,400 - DEBUG - Assigning indexes to genes
+2023-08-17 17:20:27,400 - DEBUG - Seen 17 genes until now
+2023-08-17 17:20:27,401 - DEBUG - Parsing Chromosome KI270727.1 strand + [line 395]
+2023-08-17 17:20:27,401 - DEBUG - Done with KI270727.1+ [line 409]
+2023-08-17 17:20:27,401 - DEBUG - Assigning indexes to genes
+2023-08-17 17:20:27,401 - DEBUG - Seen 19 genes until now
+2023-08-17 17:20:27,401 - DEBUG - Parsing Chromosome KI270728.1 strand - [line 410]
+2023-08-17 17:20:27,401 - DEBUG - Done with KI270728.1- [line 486]
+2023-08-17 17:20:27,401 - DEBUG - Assigning indexes to genes
+2023-08-17 17:20:27,401 - DEBUG - Seen 21 genes until now
+2023-08-17 17:20:27,401 - DEBUG - Parsing Chromosome KI270728.1 strand + [line 487]
+2023-08-17 17:20:27,401 - DEBUG - Done with KI270728.1+ [line 523]
+2023-08-17 17:20:27,401 - DEBUG - Assigning indexes to genes
+2023-08-17 17:20:27,401 - DEBUG - Seen 25 genes until now
+2023-08-17 17:20:27,402 - DEBUG - Parsing Chromosome KI270731.1 strand - [line 524]
+2023-08-17 17:20:27,402 - DEBUG - Done with KI270731.1- [line 530]
+2023-08-17 17:20:27,402 - DEBUG - Assigning indexes to genes
+2023-08-17 17:20:27,402 - DEBUG - Seen 26 genes until now
+2023-08-17 17:20:27,402 - DEBUG - Parsing Chromosome KI270734.1 strand - [line 531]
+2023-08-17 17:20:27,402 - DEBUG - Done with KI270734.1- [line 599]
+2023-08-17 17:20:27,402 - DEBUG - Assigning indexes to genes
+2023-08-17 17:20:27,402 - DEBUG - Seen 27 genes until now
+2023-08-17 17:20:27,402 - DEBUG - Parsing Chromosome KI270734.1 strand + [line 600]
+2023-08-17 17:20:27,402 - DEBUG - Done with KI270734.1+ [line 622]
+2023-08-17 17:20:27,402 - DEBUG - Assigning indexes to genes
+2023-08-17 17:20:27,402 - DEBUG - Seen 29 genes until now
+2023-08-17 17:20:27,402 - DEBUG - Parsing Chromosome 1 strand - [line 623]
+2023-08-17 17:20:28,544 - DEBUG - Done with 1- [line 118876]
+2023-08-17 17:20:28,544 - DEBUG - Assigning indexes to genes
+2023-08-17 17:20:28,563 - DEBUG - Seen 1711 genes until now
+2023-08-17 17:20:28,563 - DEBUG - Parsing Chromosome 1 strand + [line 118877]
+2023-08-17 17:20:30,279 - DEBUG - Done with 1+ [line 253796]
+2023-08-17 17:20:30,279 - DEBUG - Assigning indexes to genes
+2023-08-17 17:20:30,304 - DEBUG - Seen 3439 genes until now
+2023-08-17 17:20:30,305 - DEBUG - Parsing Chromosome 10 strand - [line 253797]
+2023-08-17 17:20:30,657 - DEBUG - Done with 10- [line 304078]
+2023-08-17 17:20:30,657 - DEBUG - Assigning indexes to genes
+2023-08-17 17:20:30,666 - DEBUG - Seen 4100 genes until now
+2023-08-17 17:20:30,666 - DEBUG - Parsing Chromosome 10 strand + [line 304079]
+2023-08-17 17:20:30,930 - DEBUG - Done with 10+ [line 356023]
+2023-08-17 17:20:30,930 - DEBUG - Assigning indexes to genes
+2023-08-17 17:20:30,935 - DEBUG - Seen 4833 genes until now
+2023-08-17 17:20:30,935 - DEBUG - Parsing Chromosome 11 strand - [line 356024]
+2023-08-17 17:20:31,786 - DEBUG - Done with 11- [line 438038]
+2023-08-17 17:20:31,786 - DEBUG - Assigning indexes to genes
+2023-08-17 17:20:31,800 - DEBUG - Seen 5833 genes until now
+2023-08-17 17:20:31,800 - DEBUG - Parsing Chromosome 11 strand + [line 438039]
+2023-08-17 17:20:32,704 - DEBUG - Done with 11+ [line 521163]
+2023-08-17 17:20:32,704 - DEBUG - Assigning indexes to genes
+2023-08-17 17:20:32,722 - DEBUG - Seen 6898 genes until now
+2023-08-17 17:20:32,722 - DEBUG - Parsing Chromosome 12 strand - [line 521164]
+2023-08-17 17:20:33,177 - DEBUG - Done with 12- [line 601582]
+2023-08-17 17:20:33,177 - DEBUG - Assigning indexes to genes
+2023-08-17 17:20:33,186 - DEBUG - Seen 7848 genes until now
+2023-08-17 17:20:33,187 - DEBUG - Parsing Chromosome 12 strand + [line 601583]
+2023-08-17 17:20:33,595 - DEBUG - Done with 12+ [line 681983]
+2023-08-17 17:20:33,595 - DEBUG - Assigning indexes to genes
+2023-08-17 17:20:33,610 - DEBUG - Seen 8826 genes until now
+2023-08-17 17:20:33,610 - DEBUG - Parsing Chromosome 13 strand - [line 681984]
+2023-08-17 17:20:34,535 - DEBUG - Done with 13- [line 702449]
+2023-08-17 17:20:34,535 - DEBUG - Assigning indexes to genes
+2023-08-17 17:20:34,539 - DEBUG - Seen 9225 genes until now
+2023-08-17 17:20:34,539 - DEBUG - Parsing Chromosome 13 strand + [line 702450]
+2023-08-17 17:20:34,690 - DEBUG - Done with 13+ [line 726349]
+2023-08-17 17:20:34,690 - DEBUG - Assigning indexes to genes
+2023-08-17 17:20:34,696 - DEBUG - Seen 9614 genes until now
+2023-08-17 17:20:34,696 - DEBUG - Parsing Chromosome 14 strand - [line 726350]
+2023-08-17 17:20:34,989 - DEBUG - Done with 14- [line 770987]
+2023-08-17 17:20:34,989 - DEBUG - Assigning indexes to genes
+2023-08-17 17:20:34,998 - DEBUG - Seen 10373 genes until now
+2023-08-17 17:20:34,999 - DEBUG - Parsing Chromosome 14 strand + [line 770988]
+2023-08-17 17:20:35,254 - DEBUG - Done with 14+ [line 822908]
+2023-08-17 17:20:35,254 - DEBUG - Assigning indexes to genes
+2023-08-17 17:20:35,264 - DEBUG - Seen 11088 genes until now
+2023-08-17 17:20:35,264 - DEBUG - Parsing Chromosome 15 strand - [line 822909]
+2023-08-17 17:20:35,609 - DEBUG - Done with 15- [line 873715]
+2023-08-17 17:20:35,609 - DEBUG - Assigning indexes to genes
+2023-08-17 17:20:35,618 - DEBUG - Seen 11734 genes until now
+2023-08-17 17:20:35,618 - DEBUG - Parsing Chromosome 15 strand + [line 873716]
+2023-08-17 17:20:35,904 - DEBUG - Done with 15+ [line 923824]
+2023-08-17 17:20:35,904 - DEBUG - Assigning indexes to genes
+2023-08-17 17:20:35,909 - DEBUG - Seen 12355 genes until now
+2023-08-17 17:20:35,909 - DEBUG - Parsing Chromosome 16 strand - [line 923825]
+2023-08-17 17:20:36,767 - DEBUG - Done with 16- [line 979238]
+2023-08-17 17:20:36,767 - DEBUG - Assigning indexes to genes
+2023-08-17 17:20:36,776 - DEBUG - Seen 13151 genes until now
+2023-08-17 17:20:36,776 - DEBUG - Parsing Chromosome 16 strand + [line 979239]
+2023-08-17 17:20:37,159 - DEBUG - Done with 16+ [line 1052152]
+2023-08-17 17:20:37,159 - DEBUG - Assigning indexes to genes
+2023-08-17 17:20:37,170 - DEBUG - Seen 14004 genes until now
+2023-08-17 17:20:37,170 - DEBUG - Parsing Chromosome 17 strand - [line 1052153]
+2023-08-17 17:20:37,655 - DEBUG - Done with 17- [line 1140008]
+2023-08-17 17:20:37,655 - DEBUG - Assigning indexes to genes
+2023-08-17 17:20:37,668 - DEBUG - Seen 15039 genes until now
+2023-08-17 17:20:37,668 - DEBUG - Parsing Chromosome 17 strand + [line 1140009]
+2023-08-17 17:20:38,081 - DEBUG - Done with 17+ [line 1219447]
+2023-08-17 17:20:38,081 - DEBUG - Assigning indexes to genes
+2023-08-17 17:20:38,092 - DEBUG - Seen 15996 genes until now
+2023-08-17 17:20:38,092 - DEBUG - Parsing Chromosome 18 strand - [line 1219448]
+2023-08-17 17:20:38,820 - DEBUG - Done with 18- [line 1246083]
+2023-08-17 17:20:38,820 - DEBUG - Assigning indexes to genes
+2023-08-17 17:20:38,825 - DEBUG - Seen 16371 genes until now
+2023-08-17 17:20:38,825 - DEBUG - Parsing Chromosome 18 strand + [line 1246084]
+2023-08-17 17:20:38,952 - DEBUG - Done with 18+ [line 1269821]
+2023-08-17 17:20:38,952 - DEBUG - Assigning indexes to genes
+2023-08-17 17:20:38,956 - DEBUG - Seen 16777 genes until now
+2023-08-17 17:20:38,956 - DEBUG - Parsing Chromosome 19 strand - [line 1269822]
+2023-08-17 17:20:39,489 - DEBUG - Done with 19- [line 1350736]
+2023-08-17 17:20:39,489 - DEBUG - Assigning indexes to genes
+2023-08-17 17:20:39,507 - DEBUG - Seen 17790 genes until now
+2023-08-17 17:20:39,507 - DEBUG - Parsing Chromosome 19 strand + [line 1350737]
+2023-08-17 17:20:39,948 - DEBUG - Done with 19+ [line 1435648]
+2023-08-17 17:20:39,948 - DEBUG - Assigning indexes to genes
+2023-08-17 17:20:39,961 - DEBUG - Seen 18804 genes until now
+2023-08-17 17:20:39,961 - DEBUG - Parsing Chromosome 2 strand - [line 1435649]
+2023-08-17 17:20:40,465 - DEBUG - Done with 2- [line 1542996]
+2023-08-17 17:20:40,465 - DEBUG - Assigning indexes to genes
+2023-08-17 17:20:40,481 - DEBUG - Seen 20037 genes until now
+2023-08-17 17:20:40,481 - DEBUG - Parsing Chromosome 2 strand + [line 1542997]
+2023-08-17 17:20:41,796 - DEBUG - Done with 2+ [line 1642863]
+2023-08-17 17:20:41,796 - DEBUG - Assigning indexes to genes
+2023-08-17 17:20:41,815 - DEBUG - Seen 21345 genes until now
+2023-08-17 17:20:41,815 - DEBUG - Parsing Chromosome 20 strand - [line 1642864]
+2023-08-17 17:20:42,016 - DEBUG - Done with 20- [line 1672442]
+2023-08-17 17:20:42,016 - DEBUG - Assigning indexes to genes
+2023-08-17 17:20:42,024 - DEBUG - Seen 21828 genes until now
+2023-08-17 17:20:42,024 - DEBUG - Parsing Chromosome 20 strand + [line 1672443]
+2023-08-17 17:20:42,231 - DEBUG - Done with 20+ [line 1707817]
+2023-08-17 17:20:42,232 - DEBUG - Assigning indexes to genes
+2023-08-17 17:20:42,237 - DEBUG - Seen 22309 genes until now
+2023-08-17 17:20:42,237 - DEBUG - Parsing Chromosome 21 strand - [line 1707818]
+2023-08-17 17:20:42,297 - DEBUG - Done with 21- [line 1722798]
+2023-08-17 17:20:42,297 - DEBUG - Assigning indexes to genes
+2023-08-17 17:20:42,299 - DEBUG - Seen 22596 genes until now
+2023-08-17 17:20:42,299 - DEBUG - Parsing Chromosome 21 strand + [line 1722799]
+2023-08-17 17:20:42,393 - DEBUG - Done with 21+ [line 1738981]
+2023-08-17 17:20:42,393 - DEBUG - Assigning indexes to genes
+2023-08-17 17:20:42,396 - DEBUG - Seen 22864 genes until now
+2023-08-17 17:20:42,396 - DEBUG - Parsing Chromosome 22 strand - [line 1738982]
+2023-08-17 17:20:42,551 - DEBUG - Done with 22- [line 1765357]
+2023-08-17 17:20:42,551 - DEBUG - Assigning indexes to genes
+2023-08-17 17:20:42,555 - DEBUG - Seen 23260 genes until now
+2023-08-17 17:20:42,555 - DEBUG - Parsing Chromosome 22 strand + [line 1765358]
+2023-08-17 17:20:42,766 - DEBUG - Done with 22+ [line 1797598]
+2023-08-17 17:20:42,766 - DEBUG - Assigning indexes to genes
+2023-08-17 17:20:42,771 - DEBUG - Seen 23765 genes until now
+2023-08-17 17:20:42,771 - DEBUG - Parsing Chromosome 3 strand - [line 1797599]
+2023-08-17 17:20:43,293 - DEBUG - Done with 3- [line 1887377]
+2023-08-17 17:20:43,293 - DEBUG - Assigning indexes to genes
+2023-08-17 17:20:43,307 - DEBUG - Seen 24693 genes until now
+2023-08-17 17:20:43,307 - DEBUG - Parsing Chromosome 3 strand + [line 1887378]
+2023-08-17 17:20:43,794 - DEBUG - Done with 3+ [line 1977011]
+2023-08-17 17:20:43,795 - DEBUG - Assigning indexes to genes
+2023-08-17 17:20:43,820 - DEBUG - Seen 25658 genes until now
+2023-08-17 17:20:43,820 - DEBUG - Parsing Chromosome 4 strand - [line 1977012]
+2023-08-17 17:20:44,142 - DEBUG - Done with 4- [line 2034238]
+2023-08-17 17:20:44,142 - DEBUG - Assigning indexes to genes
+2023-08-17 17:20:44,151 - DEBUG - Seen 26401 genes until now
+2023-08-17 17:20:44,151 - DEBUG - Parsing Chromosome 4 strand + [line 2034239]
+2023-08-17 17:20:45,342 - DEBUG - Done with 4+ [line 2094594]
+2023-08-17 17:20:45,342 - DEBUG - Assigning indexes to genes
+2023-08-17 17:20:45,354 - DEBUG - Seen 27191 genes until now
+2023-08-17 17:20:45,354 - DEBUG - Parsing Chromosome 5 strand - [line 2094595]
+2023-08-17 17:20:45,651 - DEBUG - Done with 5- [line 2152660]
+2023-08-17 17:20:45,651 - DEBUG - Assigning indexes to genes
+2023-08-17 17:20:45,657 - DEBUG - Seen 28071 genes until now
+2023-08-17 17:20:45,657 - DEBUG - Parsing Chromosome 5 strand + [line 2152661]
+2023-08-17 17:20:46,051 - DEBUG - Done with 5+ [line 2218657]
+2023-08-17 17:20:46,051 - DEBUG - Assigning indexes to genes
+2023-08-17 17:20:46,065 - DEBUG - Seen 29002 genes until now
+2023-08-17 17:20:46,065 - DEBUG - Parsing Chromosome 6 strand - [line 2218658]
+2023-08-17 17:20:46,442 - DEBUG - Done with 6- [line 2284937]
+2023-08-17 17:20:46,443 - DEBUG - Assigning indexes to genes
+2023-08-17 17:20:46,453 - DEBUG - Seen 29928 genes until now
+2023-08-17 17:20:46,453 - DEBUG - Parsing Chromosome 6 strand + [line 2284938]
+2023-08-17 17:20:47,058 - DEBUG - Done with 6+ [line 2345240]
+2023-08-17 17:20:47,059 - DEBUG - Assigning indexes to genes
+2023-08-17 17:20:47,071 - DEBUG - Seen 30829 genes until now
+2023-08-17 17:20:47,071 - DEBUG - Parsing Chromosome 7 strand - [line 2345241]
+2023-08-17 17:20:47,440 - DEBUG - Done with 7- [line 2406845]
+2023-08-17 17:20:47,440 - DEBUG - Assigning indexes to genes
+2023-08-17 17:20:47,450 - DEBUG - Seen 31621 genes until now
+2023-08-17 17:20:47,450 - DEBUG - Parsing Chromosome 7 strand + [line 2406846]
+2023-08-17 17:20:47,768 - DEBUG - Done with 7+ [line 2476014]
+2023-08-17 17:20:47,768 - DEBUG - Assigning indexes to genes
+2023-08-17 17:20:47,779 - DEBUG - Seen 32515 genes until now
+2023-08-17 17:20:47,780 - DEBUG - Parsing Chromosome 8 strand - [line 2476015]
+2023-08-17 17:20:48,031 - DEBUG - Done with 8- [line 2527366]
+2023-08-17 17:20:48,031 - DEBUG - Assigning indexes to genes
+2023-08-17 17:20:48,042 - DEBUG - Seen 33270 genes until now
+2023-08-17 17:20:48,042 - DEBUG - Parsing Chromosome 8 strand + [line 2527367]
+2023-08-17 17:20:48,291 - DEBUG - Done with 8+ [line 2577021]
+2023-08-17 17:20:48,291 - DEBUG - Assigning indexes to genes
+2023-08-17 17:20:48,300 - DEBUG - Seen 34010 genes until now
+2023-08-17 17:20:48,300 - DEBUG - Parsing Chromosome 9 strand - [line 2577022]
+2023-08-17 17:20:49,655 - DEBUG - Done with 9- [line 2622811]
+2023-08-17 17:20:49,660 - DEBUG - Assigning indexes to genes
+2023-08-17 17:20:49,668 - DEBUG - Seen 34681 genes until now
+2023-08-17 17:20:49,668 - DEBUG - Parsing Chromosome 9 strand + [line 2622812]
+2023-08-17 17:20:49,975 - DEBUG - Done with 9+ [line 2672374]
+2023-08-17 17:20:49,975 - DEBUG - Assigning indexes to genes
+2023-08-17 17:20:49,982 - DEBUG - Seen 35329 genes until now
+2023-08-17 17:20:49,982 - DEBUG - Parsing Chromosome M strand - [line 2672375]
+2023-08-17 17:20:49,982 - DEBUG - Done with M- [line 2672379]
+2023-08-17 17:20:49,982 - DEBUG - Assigning indexes to genes
+2023-08-17 17:20:49,982 - DEBUG - Seen 35330 genes until now
+2023-08-17 17:20:49,982 - DEBUG - Parsing Chromosome M strand + [line 2672380]
+2023-08-17 17:20:49,983 - DEBUG - Done with M+ [line 2672445]
+2023-08-17 17:20:49,983 - DEBUG - Assigning indexes to genes
+2023-08-17 17:20:49,983 - DEBUG - Seen 35342 genes until now
+2023-08-17 17:20:49,983 - DEBUG - Parsing Chromosome X strand - [line 2672446]
+2023-08-17 17:20:50,197 - DEBUG - Done with X- [line 2716088]
+2023-08-17 17:20:50,197 - DEBUG - Assigning indexes to genes
+2023-08-17 17:20:50,202 - DEBUG - Seen 35884 genes until now
+2023-08-17 17:20:50,202 - DEBUG - Parsing Chromosome X strand + [line 2716089]
+2023-08-17 17:20:50,418 - DEBUG - Done with X+ [line 2760500]
+2023-08-17 17:20:50,418 - DEBUG - Assigning indexes to genes
+2023-08-17 17:20:50,425 - DEBUG - Seen 36490 genes until now
+2023-08-17 17:20:50,425 - DEBUG - Parsing Chromosome Y strand - [line 2760501]
+2023-08-17 17:20:50,438 - DEBUG - Done with Y- [line 2763031]
+2023-08-17 17:20:50,438 - DEBUG - Assigning indexes to genes
+2023-08-17 17:20:50,439 - DEBUG - Seen 36543 genes until now
+2023-08-17 17:20:50,439 - DEBUG - Parsing Chromosome Y strand + [line 2763032]
+2023-08-17 17:20:50,453 - DEBUG - Assigning indexes to genes
+2023-08-17 17:20:50,454 - DEBUG - Done with Y+ [line 2765967]
+2023-08-17 17:20:50,454 - DEBUG - Fixing corner cases of transcript models containg intron longer than 1000Kbp
+2023-08-17 17:20:53,264 - DEBUG - Generated 2411536 features corresponding to 199138 transcript models from /storage/singlecell/zz4/Reference/refdata-cellranger-arc-GRCh38-2020-A/genes/genes.gtf
+2023-08-17 17:20:53,357 - INFO - Scan /storage/singlecell/jeanl/organoid/data/D45_organoid_Sridhar/D45_organoid/outs/possorted_genome_bam.bam to validate intron intervals
+2023-08-17 17:20:59,633 - DEBUG - Reading /storage/singlecell/jeanl/organoid/data/D45_organoid_Sridhar/D45_organoid/outs/possorted_genome_bam.bam
+2023-08-17 17:20:59,692 - DEBUG - Read first 0 million reads
+2023-08-17 17:20:59,694 - DEBUG - Marking up chromosome 1
+2023-08-17 17:22:44,048 - DEBUG - Marking up chromosome 10
+2023-08-17 17:22:58,001 - DEBUG - Read first 10 million reads
+2023-08-17 17:23:22,633 - DEBUG - Marking up chromosome 11
+2023-08-17 17:25:11,862 - DEBUG - Read first 20 million reads
+2023-08-17 17:25:28,255 - DEBUG - Marking up chromosome 12

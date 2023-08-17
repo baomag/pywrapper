@@ -44,6 +44,7 @@ setup(
     entry_points={
         "console_scripts": [
             "pywrapper=pywrapper.pywrapper:main", # main package
+            "velocytorun=velocytorun.velocytorun:main",
             ],
         },
     url="https://github.com/baomag/pywrapper",
