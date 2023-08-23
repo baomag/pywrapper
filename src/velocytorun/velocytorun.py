@@ -28,7 +28,7 @@ Example:
  bname=D45_organoid_Sridhar
  barcode=/storage/singlecell/jeanl/organoid/data/D45_organoid_Sridhar/D45_organoid/outs/filtered_feature_bc_matrix/barcodes.tsv.gz
  ban=/storage/singlecell/jeanl/organoid/data/D45_organoid_Sridhar/D45_organoid/outs/possorted_genome_bam.bam
-  velocytorun -d "$outdir" -b "$bname" -e velocyto -c "$barcode" -g /storage/singlecell/zz4/Reference/refdata-cellranger-arc-GRCh38-2020-A/genes/genes.gtf -t 8 -- xx.bam
+ velocytorun -d "$outdir" -b "$bname" -e velocyto -c "$barcode" -g /storage/singlecell/zz4/Reference/refdata-cellranger-arc-GRCh38-2020-A/genes/genes.gtf -t 8 -- xx.bam
 
 \b
 Note:
