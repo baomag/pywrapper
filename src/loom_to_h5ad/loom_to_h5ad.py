@@ -23,6 +23,10 @@ OUTFILE is the h5ad file.
 
 \b
 Example:
+	f=/storage/chen/home/u244209/ABCA4/looms_merge/tomreh_combined.loom
+	bname=tomreh_combined
+	outdir=$(mrrdir.sh)
+	loom_to_h5ad -d "$outdir" -b "$bname" -e scvi-env -t 2 -- "$f"
 
 \b
 Note:
@@ -42,14 +46,12 @@ Authors: Yourong Bao <maggiemaizibao@gmail.com>
 	scriptname=Path(__file__).stem
 	script=f'{absdir}/python/{scriptname}.py'
 	exprs=[
-		f"-o '{outdir}/{bname}'",
-		f"-b '{barcode}'"],
-		f"-@ {numthreads}",
-		f"'{tmpfile}'",
-		f"'{gtf}';",
-		f"rm -f {tmpfile} {tmpfile}.bai;",
+		f"outdir='{outdir}'",
+		f"bname='{bname}'",
+		f"infile='{infile}'",
 		]
-	return exeBash.callback(exprs, condaenv=condaenv, verbose=True)
+	Path(outdir).mkdir(parents=True, exist_ok=True)
+	return exePython.callback(exprs, script=script, condaenv=condaenv, verbose=True)
 
 if __name__ == "__main__":
 	sys.exit(main())

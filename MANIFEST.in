@@ -4,7 +4,7 @@ exclude .flake8 noxfile.py .coveragerc
 prune tests
 prune test_data
 
-# graft src/scrnah5adfiles2scviwkfl/snakemake
+graft src/loom_to_h5ad/python
 
 global-include dep.yaml
 

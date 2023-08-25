@@ -45,6 +45,7 @@ setup(
         "console_scripts": [
             "pywrapper=pywrapper.pywrapper:main", # main package
             "velocytorun=velocytorun.velocytorun:main",
+						"loom_to_h5ad=loom_to_h5ad.loom_to_h5ad:main",
             ],
         },
     url="https://github.com/baomag/pywrapper",
